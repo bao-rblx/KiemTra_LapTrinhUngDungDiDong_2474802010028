@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">KiemTra_LapTrinhUngDungDiDong_2474802010028</string>
+    <string name="login_header">Đăng nhập hệ thống</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="btn_login">Login</string>
+    <string name="err_email_empty">Lỗi: Email không được để trống!</string>
+    <string name="err_password_empty">Lỗi: Mật khẩu không được để trống!</string>
+    <string name="err_both_empty">Lỗi: Email và Mật khẩu không được để trống!</string>
+    <string name="err_email_format">Lỗi: Email không đúng định dạng!</string>
+    <string name="err_password_short">Lỗi: Mật khẩu phải có ít nhất 6 ký tự!</string>
+    <string name="msg_success">Validation Successful!</string>
 </resources>
