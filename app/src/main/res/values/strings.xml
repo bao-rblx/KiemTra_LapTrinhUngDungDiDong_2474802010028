@@ -13,4 +13,5 @@
     <string name="profile_header">Account Information</string>
     <string name="profile_email">Email: %1$s</string>
     <string name="btn_logout">Log Out</string>
+    <string name="toast_selected">Bạn đã chọn: %1$s</string>
 </resources>
