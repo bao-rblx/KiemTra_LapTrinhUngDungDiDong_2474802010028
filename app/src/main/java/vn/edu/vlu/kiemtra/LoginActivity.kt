@@ -1,5 +1,6 @@
 package vn.edu.vlu.kiemtra
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.util.Patterns
@@ -47,6 +48,11 @@ class LoginActivity : AppCompatActivity() {
         }
 
         showStatus(getString(R.string.msg_success), isError = false)
+
+        // Explicit Intent: LoginActivity -> ProfileActivity, carrying the email via putExtra()
+        val intent = Intent(this, ProfileActivity::class.java)
+        intent.putExtra(ProfileActivity.EXTRA_EMAIL, email)
+        startActivity(intent)
     }
 
     private fun showStatus(message: String, isError: Boolean) {
