@@ -10,4 +10,7 @@
     <string name="err_email_format">Lỗi: Email không đúng định dạng!</string>
     <string name="err_password_short">Lỗi: Mật khẩu phải có ít nhất 6 ký tự!</string>
     <string name="msg_success">Validation Successful!</string>
+    <string name="profile_header">Account Information</string>
+    <string name="profile_email">Email: %1$s</string>
+    <string name="btn_logout">Log Out</string>
 </resources>
